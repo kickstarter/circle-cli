@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'bundler/setup'
-require 'circle_cli/app'
-
-CircleCli::App.start

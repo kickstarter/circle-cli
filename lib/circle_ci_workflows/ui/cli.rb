@@ -1,6 +1,6 @@
 
 
-module CircleCli
+module CircleCiWorkflows
   module UI
     class CLI
       def initialize

@@ -1,4 +1,4 @@
-module CircleCli
+module CircleCiWorkflows
   module Core
     module UseCases
       class FetchLatestCommitWorkflow

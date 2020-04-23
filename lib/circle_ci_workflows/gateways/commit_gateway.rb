@@ -3,7 +3,7 @@
 require 'json'
 require 'http'
 
-module CircleCli
+module CircleCiWorkflows
   module Gateways
     class CommitGateway
       def initialize(owner:, github_repo:, api_token:)

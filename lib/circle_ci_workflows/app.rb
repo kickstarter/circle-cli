@@ -1,15 +1,15 @@
 require 'thor'
 
-require 'circle_cli/version'
-require 'circle_cli/ui/cli'
-require 'circle_cli/gateways/commit_gateway'
-require 'circle_cli/core/entities/commit'
-require 'circle_cli/core/entities/job'
-require 'circle_cli/core/use_cases/fetch_latest_commit_workflow'
-require 'circle_cli/core/use_cases/watch_latest_commit_workflow'
-require 'circle_cli/core/use_cases/open_branch_workflow'
+require 'circle_ci_workflows/version'
+require 'circle_ci_workflows/ui/cli'
+require 'circle_ci_workflows/gateways/commit_gateway'
+require 'circle_ci_workflows/core/entities/commit'
+require 'circle_ci_workflows/core/entities/job'
+require 'circle_ci_workflows/core/use_cases/fetch_latest_commit_workflow'
+require 'circle_ci_workflows/core/use_cases/watch_latest_commit_workflow'
+require 'circle_ci_workflows/core/use_cases/open_branch_workflow'
 
-module CircleCli
+module CircleCiWorkflows
   class App < Thor
 
     option :token

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CircleCli
+module CircleCiWorkflows
   module Core
     module UseCases
       class WatchLatestCommitWorkflow
